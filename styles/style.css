@@ -76,7 +76,7 @@ header nav .menu a {
   color: #000;
 }
 header nav .menu a:hover {
-  background-color: var(--gray);
+  text-decoration: underline;
 }
 header .nav {
   max-height: 0;
@@ -105,8 +105,7 @@ header .nav {
     float: right;
   }
   header .nav-container .nav .menu a:hover {
-    background-color: transparent;
-    color: var(--gray);
+    text-decoration: underline;
   }
   header .nav-container .hamb {
     display: none;
@@ -126,7 +125,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #fff;
-  font-size: "Slack-Circular-Pro", "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-family: "Slack-Circular-Pro", "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 a {
