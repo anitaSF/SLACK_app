@@ -1,0 +1,47 @@
+main {
+    margin: 0 auto;
+
+    section {
+        max-width: $max-content;
+        margin: 0 auto;
+        font-weight: $regular;
+
+        strong {
+            font-weight: $bold;
+        }
+
+        .text-purple {
+            color: $primaryColor;
+        }
+
+        .headline {
+            font-size: $font-headline-min;
+        }
+
+        .btn::after {
+            content: '→';
+            width: 14px;
+            height: 12px;
+            display: inline-block;
+            margin-left: .25em;
+        }
+    }
+
+    .block-1 {
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media (min-width: 1026px) {
+    main {
+        section {
+            .headline {
+                font-size: $font-headline;
+            }
+        }
+    }
+}
