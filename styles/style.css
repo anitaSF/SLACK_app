@@ -96,7 +96,7 @@ header .nav-container .nav {
 
 @media (min-width: 1026px) {
   header .nav-container {
-    max-width: 1230px;
+    max-width: 1275px;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -128,11 +128,16 @@ header .nav-container .nav {
 }
 main {
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 main section {
-  max-width: 1230px;
+  max-width: 1275px;
   margin: 0 auto;
   font-weight: 400;
+  padding: 2rem 0.75rem;
+  display: flex;
 }
 main section strong {
   font-weight: 700;
@@ -141,7 +146,7 @@ main section .text-purple {
   color: #4a154b;
 }
 main section .headline {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 main section .btn::after {
   content: "→";
@@ -152,11 +157,34 @@ main section .btn::after {
 }
 main .block-1 {
   text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .block-1 .video-hero-block {
+  text-align: center;
+  margin: 0 auto;
+}
+main .block-1 .video-hero-block .video-hero {
+  border-radius: 8px;
+  max-width: 900px;
+  max-height: 100%;
+  width: 100%;
+  box-shadow: 0 0 0.8rem 0 rgba(0, 0, 0, 0.1) !important;
+}
+main .block-1 .bg-hero::before {
+  content: "";
+  background-color: #f4ede4;
+  height: 35%;
+  width: 100vw;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 @media (min-width: 1026px) {
   main section .headline {
-    font-size: 3.125rem;
+    font-size: 3rem;
   }
 }
 * {
@@ -183,4 +211,9 @@ a {
 
 ul {
   list-style: none;
+}
+
+video {
+  display: inline-block;
+  vertical-align: baseline;
 }/*# sourceMappingURL=style.css.map */

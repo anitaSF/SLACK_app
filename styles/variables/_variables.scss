@@ -4,14 +4,16 @@ $darkColor: #000;
 
 $font-body: 0.9rem;
 $font-nav: 0.9rem;
-$font-headline: 3.125rem;
-$font-headline-min: 2rem;
+$font-headline: 3rem;
+$font-headline-min: 1.75rem;
 
 $regular: 400;
 $medium: 500;
 $bold: 700;
 
-$max-content: 1230px;
+$max-content: 1275px;
 
 $headline: 40px;
 $text-center: center;
+
+$shadow-min: 0 0 .8rem 0 rgba(0, 0, 0, .1) !important;
